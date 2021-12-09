@@ -9,7 +9,7 @@ def StringCompare(a,b):
         for i in range(len(a)):
             if a[i] != b[i]:
                 return False
-            return True
+        return True
     return False
 
 #set a to the string "abcde" repeated 100.000 times
